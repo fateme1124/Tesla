@@ -1,0 +1,50 @@
+.container{
+    margin: 10px;
+    background-color: rgb(30, 33, 39);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgb(58, 69, 95);
+}
+
+.container img{
+    width: 300px;
+    height: 55%;
+}
+
+.container h3{
+    color: #b7b7b7;
+    margin: 30px 20px 20px;
+}
+
+.container p{
+    margin: 0 25px 20px;
+    background-color: rgb(10, 145, 46);
+    width: fit-content;
+    padding: 5px;
+}
+
+.counter{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.counter img{
+    width: 20px;
+    margin: 20px;
+    background-color: rgb(254, 249, 255);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.counter span{
+    background-color: rgb(70, 70, 203);
+    padding: 5px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.deactive {
+    opacity: 0.3;
+}

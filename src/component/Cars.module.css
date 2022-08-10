@@ -1,0 +1,20 @@
+.container{
+    width: 100%;
+    z-index: 2;
+    position: absolute;
+    margin-top: -266px;
+}
+
+.container img {
+    width: 100%;
+    z-index: 2;
+}
+
+.cont{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+

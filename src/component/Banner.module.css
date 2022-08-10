@@ -1,0 +1,45 @@
+.container{
+    width: 100%;
+    position: relative;
+    background-color: rgb(83, 86, 114);
+    z-index: 1;
+    top: -35px;
+}
+
+.container img {
+    width: 100%;
+    height: 600px;
+    
+}
+
+.containerText{
+    position: absolute;
+    top: 70px;
+    right: 110px;
+}
+
+.container h4{
+    font-weight: 400px;
+    font-size: xx-large;
+    color: white;
+}
+
+.container p{
+    color:lightgray;
+    line-height: 25px;
+}
+
+.container button{
+    background: none;
+    padding: 10px;
+    width: 150px;
+    border: 3px solid white;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.containerText :hover{
+    color: white;
+}

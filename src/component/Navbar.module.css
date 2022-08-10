@@ -1,0 +1,30 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(77, 79, 101);
+    align-items: center;
+    padding: 0 120px;
+    z-index: 0;
+}
+
+.logo{
+    width: 220px;
+    padding-top: 5px;
+    margin: auto 0;
+
+}
+
+.list{
+    display: flex;
+    list-style: none;
+}
+
+.list li{
+    padding: 15px;
+    cursor: pointer;
+    color:lightgray;
+}
+
+.container li :hover{
+    background-color: white;
+}

@@ -1,0 +1,47 @@
+.container {
+    position: relative;
+    width: 100%;    
+    display: flex;
+    z-index: 6;
+    background-color: rgb(77, 79, 101);
+    top: 379px;
+    height: 400px;
+}
+
+
+.container img{
+    position: absolute;
+    width: 50%;
+    height: 400px;
+    z-index: 7;
+    top: 0px;
+}
+
+.img1{
+    right: 0px;
+}
+
+.img2{
+    left: 0px;
+    margin-top: 0px;
+}
+
+.textDes1{ 
+    width: 50%;
+    height: 400px;
+    z-index: 8;
+    color:gainsboro;
+    margin-top: 40px;
+    margin-left: 150px;
+    line-height: 25px;
+}
+
+.textDes2{ 
+    width: 50%;
+    height: 400px;
+    z-index: 8;
+    color:gainsboro;
+    margin-top: 40px;
+    margin-left: 900px;
+    line-height: 25px;
+}
